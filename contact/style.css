@@ -1,0 +1,323 @@
+*{margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Unbounded, sans-serif;
+}
+    header input::placeholder{
+        font-size: 0.6em;
+        color: gray;
+        font-weight: bold;
+        font-family: Unbounded, sans-serif;
+    
+    }
+    header{
+        display: flex;
+        align-items: center;
+    }
+    .cat{
+        display: flex;
+        align-items: center;
+    }
+    
+    .cat:hover{
+        background-color:black;
+        color: white;
+        transition: 0.3s;
+    }
+    input:focus{
+        border: 1px solid black;
+    }
+     .dropdown-item {
+        font-size: 0.8em;
+        font-weight: bolder;
+        color: black;
+    }
+    header input{
+        position: relative;
+    }
+    .relative {
+        display: flex;
+        align-items: center;
+        }
+        .icons1{
+            
+            margin-left: 2em;
+            display: flex;
+        }
+        .icons1 i{
+           margin-left: 0.2em;
+            display: flex;
+            align-items: center;
+            padding: 0.8em;
+            border-radius: 50%;
+            
+        }
+        .icons1 i:hover{
+            background-color: black;
+            color: white;
+            transition: 0.3s;
+        }
+        .as a{
+            text-decoration: none;
+            margin-left: 0.8em;
+            font-family: Unbounded, sans-serif;
+        font-size: 0.6em;
+        color: black;
+        font-weight: bold;
+        position: relative;
+    }
+            .as{
+                margin-left: 1em;
+    
+            }
+     .as a::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        height: 2px;
+        top:1.5em;
+       width: 0;
+       left:0;
+     }   
+     .as a:hover::after{
+        width: 100%;
+        transition: width 0.2s;
+     }
+
+
+
+
+
+
+
+
+     .con{
+        height: 25em;
+        border: 2px solid black;
+        display: flex;
+        
+     }
+     .con1{
+        width: 70%;
+        
+        display: flex;
+     }
+     .conin1 , .conin2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+     }
+.conin2 i:hover{
+    transform: scale(1.05);
+
+    transition: 0.3s;
+    
+   
+    
+   
+    
+    
+}
+input{
+   
+    width: 18em;
+    height: 2.2em;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+input::placeholder{
+    font-size: 0.5em;
+    margin-left: 1em;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+.conin2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.5em;
+
+}
+.con2{
+    background-color: black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     
+}
+.row1{
+    display: flex;
+    
+}
+.conin2 label{
+    font-size: 0.6em;
+    margin-left: 0.5em;
+    font-weight: 600;
+}
+.form-check{
+    display: flex;
+    align-items: center;
+}
+.form-check-input:checked {
+    background-color: #0d0d0e; /* Replace with your desired color */
+    border-color: #eee5e5; /* Replace with your desired border color */
+    color: black;
+  }
+  .form-check-input{
+    background-color: black;
+  }
+
+  .loc1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loc{
+    height: 22em;
+  }
+  .loc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 0.8em;
+  }
+  iframe{
+    border: 1px solid black;
+  }
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by faxriddin20 */ 
+/* From Uiverse.io by McHaXYT */ 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2em;
+  }
+  
+  .button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2d2e32;
+    border: 2px solid #2d2e32;
+    transition: all 0.45s;
+  }
+  
+  .button:hover {
+    transform: rotate(360deg);
+    transform-origin: center center;
+    background-color: #ffff;
+    color: #2d2e32;
+  }
+  
+  .button:hover .btn-svg {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg)
+      brightness(103%) contrast(103%);
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+     /* fooetrrrrrr */
+     footer{
+    width: 100%;
+    height: 18em;
+    font-family: Unbounded, sans-serif;
+  }
+  .foot{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1em;
+    background-color: rgb(14, 13, 13);
+    padding-top: 1.2em;
+  }
+  .foot li{
+    font-size: 0.7em;
+    padding-bottom: 1em;
+    color: white;
+    font-weight: 400;
+
+    
+  }
+  .ico{
+    margin-top: 2.2em;
+  }
+  .ico i{
+    font-size: 1.6em;
+    padding-right: 0.7em;
+  }
+  .footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+    height: 2em;
+    padding: 1.5em;
+    background-color: rgb(139, 128, 128);
+    color: white;
+  }
+  .footer2 p{
+    font-family: Unbounded, sans-serif;
+    
+  }
+  .buy:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+  }

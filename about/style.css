@@ -1,0 +1,246 @@
+*{margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Unbounded, sans-serif;}
+    header input::placeholder{
+        font-size: 0.6em;
+        color: gray;
+        font-weight: bold;
+        font-family: Unbounded, sans-serif;
+    
+    }
+    header{
+        display: flex;
+        align-items: center;
+    }
+    .cat{
+        display: flex;
+        align-items: center;
+    }
+    
+    .cat:hover{
+        background-color:black;
+        color: white;
+        transition: 0.3s;
+    }
+    input:focus{
+        border: 1px solid black;
+    }
+     .dropdown-item {
+        font-size: 0.8em;
+        font-weight: bolder;
+        color: black;
+    }
+    header input{
+        position: relative;
+    }
+    .relative {
+        display: flex;
+        align-items: center;
+        }
+        .icons1{
+            
+            margin-left: 2em;
+            display: flex;
+        }
+        .icons1 i{
+           margin-left: 0.2em;
+            display: flex;
+            align-items: center;
+            padding: 0.6em;
+            border-radius: 50%;
+            
+        }
+        .icons1 i:hover{
+            background-color: black;
+            color: white;
+            transition: 0.3s;
+        }
+        .as a{
+            text-decoration: none;
+            margin-left: 0.8em;
+            font-family: Unbounded, sans-serif;
+        font-size: 0.6em;
+        color: black;
+        font-weight: bold;
+        position: relative;
+    }
+            .as{
+                margin-left: 1em;
+    
+            }
+     .as a::after{
+        content: '';
+        position: absolute;
+        background-color: black;
+        height: 2px;
+        top:1.5em;
+       width: 0;
+       left:0;
+     }   
+     .as a:hover::after{
+        width: 100%;
+        transition: width 0.2s;
+     }
+
+     .con1 h6{
+        font-size: 2em;
+        font-weight: bold;
+        margin-left: 1em;
+        margin-top: 1em;
+     }
+     .con2 h6{
+        font-size: 2em;
+        margin-top: 1em;
+        font-weight: bold;
+
+     }
+     .con1 button:hover{
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        transition: 0.3s;
+
+     }
+.conin1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+.conin1{
+    justify-content: left;
+}
+.peep{
+    width: 25%;
+    background-color: green;
+    margin: 1em;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+
+}
+.peep::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .peep:hover::before {
+    opacity: 1;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .peep:hover .overlay {
+    opacity: 1;
+  }
+  span p{
+    font-size: 0.3em;
+    text-align: center;
+  }
+ 
+  .mission{
+    display: flex;
+
+  }
+  .mission1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission2{
+    width: 60%;
+    
+  }
+  .missionsmall{
+    width: 10em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+    overflow: hidden;
+    height: 10em;
+    
+  }
+  .missionsmall i{
+    font-size: 4em;
+  }
+
+
+     /* footerrrrrrrrrrrrrrrrrrrrrrrrr */
+
+     footer{
+        width: 100%;
+        height: 18em;
+        font-family: Unbounded, sans-serif;
+      }
+      .foot{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1em;
+        background-color: rgb(14, 13, 13);
+        padding-top: 1.2em;
+      }
+      .foot li{
+        font-size: 0.7em;
+        padding-bottom: 1em;
+        color: white;
+        font-weight: 400;
+    
+        
+      }
+      .ico{
+        margin-top: 2.2em;
+      }
+      .ico i{
+        font-size: 1.6em;
+        padding-right: 0.7em;
+      }
+      .footer2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.6em;
+        height: 2em;
+        padding: 1.5em;
+        background-color: rgb(139, 128, 128);
+        color: white;
+      }
+      .footer2 p{
+        font-family: Unbounded, sans-serif;
+        
+      }

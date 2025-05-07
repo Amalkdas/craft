@@ -1,0 +1,443 @@
+*{margin: 0;
+padding: 0;
+scroll-behavior: smooth;}
+header input::placeholder{
+    font-size: 0.6em;
+    color: gray;
+    font-weight: bold;
+    font-family: Unbounded, sans-serif;
+
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.cat{
+    display: flex;
+    align-items: center;
+}
+
+.cat:hover{
+    background-color:black;
+    color: white;
+    transition: 0.3s;
+}
+input:focus{
+    border: 1px solid black;
+}
+ .dropdown-item {
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: black;
+}
+header input{
+    position: relative;
+}
+.relative {
+    display: flex;
+    align-items: center;
+    }
+    .icons1{
+        
+        margin-left: 2em;
+        display: flex;
+    }
+    .icons1 i{
+       margin-left: 0.2em;
+        display: flex;
+        align-items: center;
+        padding: 0.6em;
+        border-radius: 50%;
+        
+    }
+    .icons1 i:hover{
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+    }
+    .as a{
+        text-decoration: none;
+        margin-left: 0.8em;
+        font-family: Unbounded, sans-serif;
+    font-size: 0.6em;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+        .as{
+            margin-left: 1em;
+
+        }
+ .as a::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    top:1.5em;
+   width: 0;
+   left:0;
+ }   
+ .as a:hover::after{
+    width: 100%;
+    transition: width 0.2s;
+ }
+ .carouselExample{
+    overflow: hidden;
+    height: 300px;
+ }
+ .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+   border-radius: 5px;
+   background-position: center;
+ }
+ .custom-carousel {
+    height: 500px;         
+    overflow: hidden;       
+  }
+  .con2{
+    font-family: Unbounded, sans-serif;
+    margin-top: 1em;
+  }
+  .image{
+
+  }
+  .in{
+    border: 2px solid black;
+    width: 45%;
+    height: 46%;
+    margin-right: 1.5em;
+    
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+  }
+  .in img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* button explore */
+  /* From Uiverse.io by vinodjangid07 */ 
+.button {
+    width: 9em;
+    height: 3em;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color:white;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid rgb(37, 36, 36);
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.116);
+    padding-left: 8px;
+    transition-duration: .5s;
+  }
+  
+  .svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+  }
+  
+  .bell path {
+    fill: white;
+  }
+  
+  .button:hover {
+    
+    transition-duration: .5s;
+  }
+  
+  .button:active {
+    transform: scale(0.97);
+    transition-duration: .2s;
+  }
+  
+  .button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
+  }
+  .cats2{
+    margin-top: 0.5em;
+    
+  }
+  
+  .cats2s{
+    height: 100%;
+    width: 12em;
+    margin-left: 1.2em;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .texts{
+    margin-top: 0.5em;
+  }
+  .con3 h6{
+    color: black;
+    margin-left: 8em;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .cats2s:hover{
+    transition: 0.3s;
+    transform: scale(1.01)
+  }
+  
+  .cats2s img{
+    object-fit: cover;
+  }
+   #heart{
+    
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: white;
+        border-radius: 50%;
+        padding: 8px;
+        font-size: 1em;
+        opacity: 0;
+        transform: scale(0.8);
+        transition: all 0.3s ease;
+        pointer-events: none;
+    
+  }
+  .cats2s:hover #heart {
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .con4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .b:hover #heart{
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1);
+
+  }
+  .small:hover #heart{
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1);
+
+  }
+  .small{
+    position: relative;
+  }
+  #button1 {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+    padding: 1em;
+    width: 8rem;
+    height: 6em;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+    font-size: 0.6em;
+   font-family: Unbounded, sans-serif;
+    border-radius: 5px;
+    background-color: black;
+    overflow: hidden;
+    border: 2px solid black;
+    color: white;
+   }
+   
+   #button1 span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.1s ease-in;
+   }
+   
+   #button1:hover span {
+    color: black;
+   }
+   
+   #button1::before,
+   #button1::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   #button1::before {
+    content: "";
+  background-color: white;
+  width: 120%;
+  color: black;
+  left: -10%;
+  transform: translate3d(-100%, 0, 0) skew(30deg); /* Start off-screen */
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   #button1:hover::before {
+  
+    transform: translate3d(100%, 0, 0) skew(30deg);
+   }
+   .con5{
+    font-family: Unbounded, sans-serif;
+    background-size: cover;
+    
+   }
+   .con5 img{
+    object-fit:cover ;
+   }
+   .linens:hover #heart {
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .linens:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+    box-shadow: 2px 2px 2px gray
+  }
+  .con6{
+    font-family: Unbounded, sans-serif;
+  }
+  .con7s{
+    width:  15em;
+    background-color: green;
+    margin: 0.8em;
+    background-size: cover;
+  }
+  .con7s:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 1px 1px 1px gray;
+  }
+  .text7 p{
+    font-size: 0.6em;
+     font-family: Unbounded, sans-serif;
+
+  }
+  .dis{
+  font-family: Unbounded, sans-serif;
+  height: 22em;
+  }
+  .diss{
+  
+    margin: 1em;
+    height: 20em;
+    width: 22em;
+  }
+  #diss:hover{
+    transform: scale(1.01);
+    transition: 0.3s;
+    box-shadow: 1x 1px gray;
+  }
+  #disbt:hover{
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+
+  }
+  #diss{
+    position: relative;
+  }
+  #diss h6{
+    z-index: 3;
+    color: white;
+    top: 17em;
+    left: 1.2em;
+    font-weight: bold;
+    position: absolute;
+  }
+  #dissspan1{
+    color: rgb(167, 150, 150);
+    margin-left: 0.4em;
+  }
+  .dissspan2{
+    font-weight: 300;
+    font-size: 0.5em;
+    color: white;
+  }
+  .con8s{
+    margin: 1em;
+    width: 30em;
+    height: 32em;
+  font-family: Unbounded, sans-serif; 
+  border: 2px solid black;
+  }
+  .con8s:hover{
+    transition: 0.8s;
+    transform: scale(1.01);
+     box-shadow: 1px 1px 1px gray;
+  }
+  .img8{
+    height: 70%;
+    background-size: cover;}
+   
+  .img8 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    height: 18em;
+    font-family: Unbounded, sans-serif;
+  }
+  .foot{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1em;
+    background-color: rgb(14, 13, 13);
+    padding-top: 1.2em;
+  }
+  .foot li{
+    font-size: 0.7em;
+    padding-bottom: 1em;
+    color: white;
+    font-weight: 400;
+
+    
+  }
+  .ico{
+    margin-top: 2.2em;
+  }
+  .ico i{
+    font-size: 1.6em;
+    padding-right: 0.7em;
+  }
+  .footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+    height: 2em;
+    padding: 1.5em;
+    background-color: rgb(139, 128, 128);
+    color: white;
+  }
+  .footer2 p{
+    font-family: Unbounded, sans-serif;
+    
+  }
+
+
+   
+  
