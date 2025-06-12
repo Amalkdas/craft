@@ -39,11 +39,11 @@ header input{
     }
     .icons1{
         
-        margin-left: 2em;
+        margin-left: 6em;
         display: flex;
     }
     .icons1 i{
-       margin-left: 0.2em;
+       margin-left: 2em;
         display: flex;
         align-items: center;
         padding: 0.6em;
@@ -57,7 +57,7 @@ header input{
     }
     .as a{
         text-decoration: none;
-        margin-left: 0.8em;
+        margin-left: 4em;
         font-family: Unbounded, sans-serif;
     font-size: 0.6em;
     color: black;
@@ -99,9 +99,7 @@ header input{
     font-family: Unbounded, sans-serif;
     margin-top: 1em;
   }
-  .image{
-
-  }
+ 
   .in{
     border: 2px solid black;
     width: 45%;
@@ -374,8 +372,8 @@ header input{
   }
   .con8s{
     margin: 1em;
-    width: 30em;
-    height: 32em;
+    width: 28em;
+    height: 25em;
   font-family: Unbounded, sans-serif; 
   border: 2px solid black;
   }

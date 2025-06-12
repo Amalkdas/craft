@@ -40,11 +40,11 @@
         }
         .icons1{
             
-            margin-left: 2em;
+            margin-left: 4em;
             display: flex;
         }
         .icons1 i{
-           margin-left: 0.2em;
+           margin-left: 2em;
             display: flex;
             align-items: center;
             padding: 0.6em;
@@ -58,7 +58,7 @@
         }
         .as a{
             text-decoration: none;
-            margin-left: 0.8em;
+            margin-left: 4em;
             font-family: Unbounded, sans-serif;
         font-size: 0.6em;
         color: black;
@@ -173,13 +173,13 @@
 
   }
   .mission1{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .mission2{
-    width: 60%;
+    width: 50%;
     
   }
   .missionsmall{
